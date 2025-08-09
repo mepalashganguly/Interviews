@@ -1,7 +1,8 @@
 1. Cloud Migration
 1.1 clear comparison of Azure SQL Managed Instance and Azure SQL Database to help you decide which best fits different use cases:
 1.2 Cost Factors
-1.3 How SSL Works:
+1.3 How SSL Works
+1.4 Azure Traffic Manager
 
 
 1.1 clear comparison of Azure SQL Managed Instance and Azure SQL Database to help you decide which best fits different use cases:
@@ -82,3 +83,19 @@ Server presents certificate; client validates it.
 Both negotiate encryption method and key.
 
 All communication in the session is encrypted.
+
+1.4 Azure Traffic Manager
+Azure Traffic Manager is a DNS-based global traffic load balancer that enables you to distribute incoming traffic across multiple geographically dispersed endpoints, such as Azure regions, on-premises sites, or other cloud services. It directs client requests to the best available endpoint based on configurable traffic-routing methods, health monitoring, and failover policies.
+
+Key Features of Azure Traffic Manager:
+Global DNS-based traffic routing: Client DNS queries are resolved to the most appropriate service endpoint.
+
+Multiple routing methods: Priority, weighted, performance (lowest latency), geographic, multi-value, and subnet-based routing to tailor traffic flow.
+
+Health monitoring: Continuously checks the health of each endpoint and automatically removes unhealthy endpoints from rotation.
+
+High availability and failover: In case of endpoint or even entire region failures, traffic is rerouted automatically to healthy endpoints to ensure service continuity.
+
+Works with Azure and external/non-Azure endpoints: Can route traffic across cloud regions or on-premises infrastructure.
+
+Improves performance: By directing users to the closest or best-performing endpoint globally, it reduces latency and enhances user experience.
