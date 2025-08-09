@@ -1,6 +1,8 @@
 1. Cloud Migration
 1.1 clear comparison of Azure SQL Managed Instance and Azure SQL Database to help you decide which best fits different use cases:
 1.2 Cost Factors
+1.3 How SSL Works:
+
 
 1.1 clear comparison of Azure SQL Managed Instance and Azure SQL Database to help you decide which best fits different use cases:
 
@@ -58,3 +60,25 @@ Managed Instance is considerably more expensive for the same compute/storage, bu
 Azure SQL Database is less costly and more flexible for scaling out hundreds/thousands of databases, especially with elastic pools and serverless compute.
 
 Both offer licensing/commitment discounts and backup/retention as line items; storage costs are similar.
+
+1.3 How SSL Works:
+
+When a client initiates a connection, it requests a secure (SSL/TLS) session.
+
+The server presents its SSL certificate, issued by a trusted Certificate Authority (CA).
+
+The client validates the server's certificate to establish authenticity and trust.
+
+Both client and server negotiate encryption algorithms and session keys.
+
+Data sent between client and server is encrypted using these keys, preventing eavesdropping or tampering.
+
+Summary of SSL Steps in a Database Environment:
+
+Client connects; requests SSL/TLS.
+
+Server presents certificate; client validates it.
+
+Both negotiate encryption method and key.
+
+All communication in the session is encrypted.
