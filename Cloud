@@ -2,7 +2,7 @@
 1.1 clear comparison of Azure SQL Managed Instance and Azure SQL Database to help you decide which best fits different use cases:
 1.2 Cost Factors
 1.3 How SSL Works
-1.4 Azure Traffic Manager
+1.4 Azure Traffic Manager and How it's works
 
 
 1.1 clear comparison of Azure SQL Managed Instance and Azure SQL Database to help you decide which best fits different use cases:
@@ -99,3 +99,20 @@ High availability and failover: In case of endpoint or even entire region failur
 Works with Azure and external/non-Azure endpoints: Can route traffic across cloud regions or on-premises infrastructure.
 
 Improves performance: By directing users to the closest or best-performing endpoint globally, it reduces latency and enhances user experience.
+
+Azure Traffic Manager is a global DNS-based traffic load balancer that controls how user traffic is distributed across multiple application endpoints (which can be in Azure, other clouds, or on-premises). It works by intercepting DNS queries for your application’s domain and responding with the IP address of the best endpoint based on configured traffic-routing rules and endpoint health.
+
+Here’s how Azure Traffic Manager works in detail:
+
+DNS-Level Operation:
+Traffic Manager functions at the DNS layer (Application Layer/Layer 7). When a user tries to access your service, their device asks its DNS resolver to translate your domain name into an IP address.
+
+DNS Query Resolution Process:
+
+The client’s DNS resolver recursively queries authoritative DNS servers.
+
+When the request reaches Azure Traffic Manager's DNS servers, Traffic Manager decides which endpoint to respond with based on:
+
+Endpoint health (unhealthy endpoints are excluded).
+
+The traffic-routing method you configured (e.g., priority, weighted, performance, geographic).
