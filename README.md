@@ -66,8 +66,6 @@ Bottom line:
 
 Choose Managed Instance for full SQL Server compatibility or migration with complex needs.
 
-</b></details>
-
 Choose Azure SQL Database for new cloud-first apps, microservices, or simple/medium workloads where cost, simplicity, and fast scaling matter most.
 
 Hybrid and migration scenarios often start with Managed Instance for compatibility and then refactor toward Azure SQL Database for cost and modern agility.
