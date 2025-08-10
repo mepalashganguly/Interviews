@@ -24,7 +24,7 @@ Deployment: Suited for customers with substantial SQL workloads requiring instan
 
 
 <details>
-<summary>Azure SQL Database? Cost Factors?</summary><br><b>
+<summary>1.2 Azure SQL Database? Cost Factors?</summary><br><b>
 </b></details>
 
 Azure SQL Database
@@ -50,7 +50,9 @@ Both offer licensing/commitment discounts and backup/retention as line items; st
 
 </b></details>
 
-<summary>1.2 Azure SQL Database? Cost Factors? </summary><br><b>
+<details>
+<summary>1.3 comparison Azure Instance and Azure SQL Database? Cost Factors? </summary><br><b>
+</b></details>
 
 Summary Table
 Feature	Azure SQL Managed Instance	Azure SQL Database
