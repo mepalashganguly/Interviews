@@ -356,3 +356,40 @@ What are the main differences between Azure Virtual Desktop and Windows 365
 How can I migrate existing RDS deployments to Azure Virtual Desktop efficiently
 
 </b></details>
+
+
+
+
+## Kubernetes
+
+<a name="Kubernetes Interview"></a>
+
+<details>
+<summary>1.1 - what is Kubernetes Operator and how does it works?</summary><br><b>
+
+A Kubernetes Operator is a powerful mechanism to automate application-specific operations in clusters, making it easier to deploy, manage, and scale stateful or complex software on Kubernetes with the reliability and repeatability expected of cloud-native infrastructure.
+
+Why Use Operators?
+Declarative management: Interact with apps through familiar kubectl commands, just like built-in resources.
+
+Consistency: Repeatable, automated operational workflows reduce human error.
+
+Advanced automation: Handles both Day 1 (install/configure) and Day 2 (update/backup/restore) operations.
+
+Key Concepts
+Custom Resources (CRs) and CRDs: Operators introduce Custom Resource Definitions (CRDs), allowing you to define and manage custom application objects in your cluster, using standard Kubernetes APIs and tools.
+
+Controller Logic: The operator runs a control loop, constantly monitoring the actual state of an application and its components in the cluster, and acting to reconcile it with the desired state specified in the custom resource.
+
+Automation: Operators can automate complex tasks such as installation, configuration, upgrades, scaling, backups, restoration, failure recovery, and even custom workflows for stateful applications.
+
+Extensibility: They allow you to extend Kubernetes beyond built-in resources, packaging domain-specific knowledge for managing sophisticated software systems (e.g., databases, queues, monitoring systems) as if each were a first-class Kubernetes object.
+
+Example Use Cases
+Auto-deploying and scaling databases like PostgreSQL or MongoDB.
+
+Orchestrating periodic backups and handling disaster recovery.
+
+Rolling out software upgrades and schema migrations safely.
+
+
