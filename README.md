@@ -189,9 +189,42 @@ This distinction helps in designing modern, scalable, and maintainable software 
 </b></details>
 
 <details>
+<summary>1.6 Decission to take wheter to go to Cloud? </summary><br><b>
+
+</b></details>
+
+<details>
+<summary>1.7 How to make Cloud Strategy for my Project? </summary><br><b>
+
+1. How musch I have time
+2. Whether my Cloud stratigic?
+3. Total Cost of Ownership by time and ROI
+4. My Project Buget
+5. Company Strategy ( IAAS/PAAS/SAAS )
+
+</b></details>
+
+
+<details>
+<summary> 1.8 What are 5R's Migration strategy? </summary><br><b>
+
+5R's
+1. Rehost - No Code Change
+2. Refactor ( PAAS ) - No Code Changing
+4. Re-archietect - ( Changing DB, Code change, changing my application, shift to vm based app to container / Servreless etc )
+5. Rebuild - ( To many changes then - Build from Scratch )
+
+   
+</b></details>
+
+<details>
 <summary>1.6 DataCenter Migration Diagram to Azure? </summary><br><b>
 
 <img width="1500" height="1000" alt="image" src="https://github.com/user-attachments/assets/c711af62-f5da-413e-bf07-edaa2760fc26" />
+
+Windows Virtual Desktop
+Azure VMWare Service
+Azure Kubernetes Service
 
 </b></details>
 
