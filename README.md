@@ -247,9 +247,9 @@ Hybrid approaches are increasingly popular, blending the predictability and cont
 4. My Project Budget
 5. Company Strategy ( IAAS/PAAS/SAAS )
 6. Effort ( Low/Midium/high )
-7. Discover - 
- #### 8.1 What App? --- ( Understand the type of App )
- ####  8.2 Performance? --- ( Right Sizing )
+7. Discover - \n
+   8.1 What App? --- ( Understand the type of App )
+   8.2 Performance? --- ( Right Sizing )
    8.3 Dependencies? --- ( Grouping all the related service including monitoring)
    8.4 App Value? --- ( Target Service )
 8. Asses:
