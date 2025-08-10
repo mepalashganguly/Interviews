@@ -241,12 +241,26 @@ Hybrid approaches are increasingly popular, blending the predictability and cont
 <details>
 <summary>1.7 How to make Cloud Strategy for my Project? </summary><br><b>
 
-1. How musch I have time
-2. Whether my App stratigic? ( life time of an App, if it's not stratigic App then rehost )
+1. How much I have time
+2. Whether my App is stratigic? ( life time of an App, if it's not stratigic App then rehost )
 3. Total Cost of Ownership by time and ROI
-4. My Project Buget
+4. My Project Budget
 5. Company Strategy ( IAAS/PAAS/SAAS )
 6. Effort ( Low/Midium/high )
+7. Discover - 
+   8.1 What App? --- ( Understand the type of App )
+   8.2 Performance? --- ( Right Sizing )
+   8.3 Dependencies? --- ( Grouping all the related service including monitoring)
+   8.4 App Value? --- ( Target Service )
+8. Asses:
+   9.1 Understand the type of App
+   9.2 Right Sizing
+   9.3 Grouping
+   9.4 Target Service
+9. Migrate
+   9.1 Plan ( Test Migration / Fail Back / Online/OffLine / Downtime / Notification / Intimation / Collaboration / Chnage Plan / CR's )
+   9.2 Migrate
+10. Optimize 
 
 </b></details>
 
@@ -258,8 +272,9 @@ Hybrid approaches are increasingly popular, blending the predictability and cont
 5R's
 1. Rehost - No Code Change ( life time of an App, if it's not stratigic App then rehost )
 2. Refactor ( PAAS ) - No Code Changing
-4. Re-archietect - ( Changing DB, Code change, changing my application, shift to vm based app to container / Servreless etc )
-5. Rebuild - ( To many changes then - Build from Scratch )
+3. Re-archietect - ( Changing DB, Code change, changing my application, shift to vm based app to container / Servreless etc )
+4. Rebuild - ( To many changes then - Build from Scratch )
+5. Replace
 5R's Based on Effor level ( Low/Midium/high )
    
 </b></details>
