@@ -394,7 +394,7 @@ Rolling out software upgrades and schema migrations safely.
 </b></details>
 
 <details>
-<summary>1.1 - what is Kubernetes Operator and how does it works?</summary><br><b>
+<summary>1.1 - Kubernetes Services, Explain each?</summary><br><b>
 In Kubernetes, a Service is an abstraction that defines a logical set of Pods and a policy to access them. Services enable reliable networking by providing a stable IP address and DNS name to dynamically changing Pod endpoints, facilitating communication inside and outside the cluster.
 
 Why Kubernetes Services?
