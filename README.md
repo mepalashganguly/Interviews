@@ -96,3 +96,94 @@ Both negotiate encryption method and key.
 All communication in the session is encrypted.
 
 </b></details>
+
+<details>
+<summary>1.4 Azure Traffic Manager? </summary><br><b>
+
+Azure Traffic Manager is a DNS-based global traffic load balancer that enables you to distribute incoming traffic across multiple geographically dispersed endpoints, such as Azure regions, on-premises sites, or other cloud services. It directs client requests to the best available endpoint based on configurable traffic-routing methods, health monitoring, and failover policies.
+
+Key Features of Azure Traffic Manager:
+Global DNS-based traffic routing: Client DNS queries are resolved to the most appropriate service endpoint.
+
+Multiple routing methods: Priority, weighted, performance (lowest latency), geographic, multi-value, and subnet-based routing to tailor traffic flow.
+
+Health monitoring: Continuously checks the health of each endpoint and automatically removes unhealthy endpoints from rotation.
+
+High availability and failover: In case of endpoint or even entire region failures, traffic is rerouted automatically to healthy endpoints to ensure service continuity.
+
+Works with Azure and external/non-Azure endpoints: Can route traffic across cloud regions or on-premises infrastructure.
+
+Improves performance: By directing users to the closest or best-performing endpoint globally, it reduces latency and enhances user experience.
+
+Azure Traffic Manager is a global DNS-based traffic load balancer that controls how user traffic is distributed across multiple application endpoints (which can be in Azure, other clouds, or on-premises). It works by intercepting DNS queries for your application’s domain and responding with the IP address of the best endpoint based on configured traffic-routing rules and endpoint health.
+
+Here’s how Azure Traffic Manager works in detail:
+
+DNS-Level Operation:
+Traffic Manager functions at the DNS layer (Application Layer/Layer 7). When a user tries to access your service, their device asks its DNS resolver to translate your domain name into an IP address.
+
+DNS Query Resolution Process:
+
+The client’s DNS resolver recursively queries authoritative DNS servers.
+
+When the request reaches Azure Traffic Manager's DNS servers, Traffic Manager decides which endpoint to respond with based on:
+
+Endpoint health (unhealthy endpoints are excluded).
+
+The traffic-routing method you configured (e.g., priority, weighted, performance, geographic).
+
+</b></details>
+
+<details>
+<summary>1.5 Monolithic Vs Microservices? </summary><br><b>
+Monolithic Architecture
+A single, unified application where all components (UI, business logic, data access) are tightly integrated and run as one unit.
+
+Typically has a single codebase and a centralized database.
+
+Easier to develop initially and simpler to deploy as just one package.
+
+Components communicate internally through shared memory, resulting in faster communication.
+
+Updating one part often requires redeploying the entire application.
+
+Scaling is done by replicating the whole application, which can be inefficient.
+
+Risk of a single point of failure affecting the entire system.
+
+Best suited for simple, smaller applications or where rapid initial development is prioritized.
+
+Microservices Architecture
+The application is broken into small, independent, loosely coupled services, each handling a specific business function.
+
+Each microservice has its own codebase, deployment, and often its own database.
+
+Services communicate over networks, usually via APIs, which adds some latency.
+
+Offers independent deployment and scaling of services, enabling efficient resource use.
+
+Easier to update and maintain individual components without affecting the entire system.
+
+Supports technological diversity, letting teams choose different languages or frameworks per service.
+
+More complex to design, develop, debug, and manage due to distributed nature.
+
+Better fault isolation—failure in one service usually does not bring down the whole application.
+
+Ideal for large, complex, scalable applications needing flexibility and continuous delivery.
+
+Summary Table
+Aspect	Monolithic Architecture	Microservices Architecture
+Structure	Single unified codebase & deployment	Multiple independent, loosely coupled services
+Development	Initially simpler; later more complex to maintain	Complex initially; easier to maintain over time
+Deployment	Single deployment unit	Independent deployment per service
+Scalability	Scale entire application	Scale services independently
+Technology Flexibility	Limited—one tech stack for entire app	High—choose best tech per service
+Fault Tolerance	Single point of failure potential	Failure isolated to individual service
+Communication	Internal, faster (shared memory)	Network calls, may introduce latency
+Maintenance	Difficult as app grows	Easier with modularity and autonomy
+Best For	Small to medium apps with less complexity	Large, complex, evolving applications
+Choosing between the two depends on the application's size, complexity, scalability needs, team expertise, and business goals. Monolithic suits simpler, smaller apps or when rapid development is essential. Microservices excel at supporting large-scale, complex systems requiring flexibility, resilience, and frequent updates.
+
+This distinction helps in designing modern, scalable, and maintainable software based on specific organizational contexts and future growth plans.
+</b></details>
