@@ -71,3 +71,28 @@ Choose Azure SQL Database for new cloud-first apps, microservices, or simple/med
 Hybrid and migration scenarios often start with Managed Instance for compatibility and then refactor toward Azure SQL Database for cost and modern agility.
 
 </b></details>
+
+<details>
+<summary>1.3 How SSL Works? </summary><br><b>
+  
+When a client initiates a connection, it requests a secure (SSL/TLS) session.
+
+The server presents its SSL certificate, issued by a trusted Certificate Authority (CA).
+
+The client validates the server's certificate to establish authenticity and trust.
+
+Both client and server negotiate encryption algorithms and session keys.
+
+Data sent between client and server is encrypted using these keys, preventing eavesdropping or tampering.
+
+Summary of SSL Steps in a Database Environment:
+
+Client connects; requests SSL/TLS.
+
+Server presents certificate; client validates it.
+
+Both negotiate encryption method and key.
+
+All communication in the session is encrypted.
+
+</b></details>
