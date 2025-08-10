@@ -422,7 +422,9 @@ Traffic sent to a Service IP is load balanced among its healthy Pods.
 
 If Pods are scaled or replaced, the Service transparently updates its endpoints.
 
-Summary<img width="747" height="402" alt="Screenshot 2025-08-11 at 2 48 13 AM" src="https://github.com/user-attachments/assets/5e7f490e-eb0d-46d1-a510-3f06536577c1" />
+<img width="747" height="402" alt="Screenshot 2025-08-11 at 2 48 13 AM" src="https://github.com/user-attachments/assets/5e7f490e-eb0d-46d1-a510-3f06536577c1" />
+
+Summary
 
 Kubernetes Services are fundamental to network communication in clusters. They provide abstraction for dynamic Pod addressing, enable load balancing, service discovery, and external access depending on your use case and requirements.
 
