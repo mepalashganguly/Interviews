@@ -1,7 +1,6 @@
 ## Cloud
 
 <a name="Cloud Migration"></a>
-#### :baby: Beginner
 
 <details>
 <summary>clear comparison of Azure SQL Managed Instance and Azure SQL Database to help you decide which best fits different use cases?</summary><br><b>
