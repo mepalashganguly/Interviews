@@ -52,7 +52,6 @@ Both offer licensing/commitment discounts and backup/retention as line items; st
 
 <details>
 <summary>1.3 comparison Azure Instance and Azure SQL Database? Cost Factors? </summary><br><b>
-</b></details>
 
 Summary Table
 Feature	Azure SQL Managed Instance	Azure SQL Database
@@ -66,6 +65,8 @@ Cost	Higher	Lower
 Bottom line:
 
 Choose Managed Instance for full SQL Server compatibility or migration with complex needs.
+
+</b></details>
 
 Choose Azure SQL Database for new cloud-first apps, microservices, or simple/medium workloads where cost, simplicity, and fast scaling matter most.
 
