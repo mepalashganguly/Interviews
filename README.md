@@ -412,12 +412,7 @@ Decoupling: Separates clients from backend Pods, enabling Pods scaling and updat
 Kubernetes Service Types
 Each Service type controls how the Service is exposed and accessed:
 
-Service Type	Description	Use Case
-ClusterIP	Default type; exposes Service on a cluster-internal IP. Accessible only within the cluster.	Communication between Pods or microservices inside the cluster.
-NodePort	Exposes Service on each node’s IP at a static port, opening access from outside the cluster.	External access for development, testing, or simple exposure scenarios.
-LoadBalancer	Integrates with cloud provider load balancer to expose Service externally with an external IP.	Production applications requiring public exposure with load balancing.
-ExternalName	Maps Service to an external DNS name via a CNAME record, without proxying traffic.	Connect to external resources from within the cluster transparently.
-Headless	No cluster IP assigned, Pods are exposed directly. Useful for stateful applications needing direct Pod access.	StatefulSets, custom service discovery, and direct client-to-Pod connections.
+
 How Services Work Internally
 Services use selectors (labels) to define which Pods the Service routes to.
 
@@ -427,7 +422,8 @@ Traffic sent to a Service IP is load balanced among its healthy Pods.
 
 If Pods are scaled or replaced, the Service transparently updates its endpoints.
 
-Summary
+Summary<img width="747" height="402" alt="Screenshot 2025-08-11 at 2 48 13 AM" src="https://github.com/user-attachments/assets/5e7f490e-eb0d-46d1-a510-3f06536577c1" />
+
 Kubernetes Services are fundamental to network communication in clusters. They provide abstraction for dynamic Pod addressing, enable load balancing, service discovery, and external access depending on your use case and requirements.
 
 This design allows scalable, fault-tolerant, and decoupled application architectures in Kubernetes environments.
