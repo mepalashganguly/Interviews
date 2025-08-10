@@ -25,7 +25,7 @@ Deployment: Suited for customers with substantial SQL workloads requiring instan
 
 <details>
 <summary>1.2 Azure SQL Database? Cost Factors?</summary><br><b>
-</b></details>
+
 
 Azure SQL Database
 Designed for: Modern, cloud-native applications that require a fully managed, scalable, and highly available relational database.
