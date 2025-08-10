@@ -242,7 +242,7 @@ Hybrid approaches are increasingly popular, blending the predictability and cont
 <summary>1.7 How to make Cloud Strategy for my Project? </summary><br><b>
 
 1. How musch I have time
-2. Whether my Cloud stratigic?
+2. Whether my App stratigic? ( life time of an App, if it's not stratigic App then rehost )
 3. Total Cost of Ownership by time and ROI
 4. My Project Buget
 5. Company Strategy ( IAAS/PAAS/SAAS )
@@ -254,7 +254,7 @@ Hybrid approaches are increasingly popular, blending the predictability and cont
 <summary> 1.8 What are 5R's Migration strategy? </summary><br><b>
 
 5R's
-1. Rehost - No Code Change
+1. Rehost - No Code Change ( life time of an App, if it's not stratigic App then rehost )
 2. Refactor ( PAAS ) - No Code Changing
 4. Re-archietect - ( Changing DB, Code change, changing my application, shift to vm based app to container / Servreless etc )
 5. Rebuild - ( To many changes then - Build from Scratch )
