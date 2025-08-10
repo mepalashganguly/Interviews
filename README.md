@@ -189,6 +189,14 @@ This distinction helps in designing modern, scalable, and maintainable software 
 </b></details>
 
 <details>
+<summary>1.6 DataCenter Migration Diagram to Azure? </summary><br><b>
+
+<img width="1500" height="1000" alt="image" src="https://github.com/user-attachments/assets/c711af62-f5da-413e-bf07-edaa2760fc26" />
+
+</b></details>
+
+
+<details>
 <summary>1.6 Windows Virtual Desktop? </summary><br><b>
 
   
