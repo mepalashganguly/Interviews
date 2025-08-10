@@ -3,17 +3,7 @@
 <a name="Cloud Migration"></a>
 
 <details>
-<summary>1.1 - clear comparison of Azure SQL Managed Instance and Azure SQL Database to help you decide which best fits different use cases?</summary><br><b>
-
-1. Cloud Migration
-1.1 clear comparison of Azure SQL Managed Instance and Azure SQL Database to help you decide which best fits different use cases:
-
-1.3 How SSL Works
-1.4 Azure Traffic Manager and How it's works
-1.5 Monolithic Vs Micro Services
-
-
-1.1 clear comparison of Azure SQL Managed Instance and Azure SQL Database to help you decide which best fits different use cases:
+<summary>1.1 - what is Azure SQL Managed Instance?</summary><br><b>
 
 Azure SQL Managed Instance
 Designed for: Easy migration of on-premises SQL Server workloads to Azure with minimal changes—ideal for organizations wanting high compatibility with full SQL Server features.
@@ -30,6 +20,10 @@ Networking: Access via private virtual network only.
 
 Deployment: Suited for customers with substantial SQL workloads requiring instance-scoped features and broader SQL Server compatibility.
 
+</b></details>
+
+<summary>1.2 Azure SQL Database? Cost Factors? </summary><br><b>
+
 Azure SQL Database
 Designed for: Modern, cloud-native applications that require a fully managed, scalable, and highly available relational database.
 
@@ -44,6 +38,16 @@ Cost: Generally less expensive than Managed Instance. Pay for only the resources
 Networking: Public and private connection options.
 
 Deployment: Perfect for serverless use cases and companies needing rapid scalability with minimal administrative overhead.
+
+Managed Instance is considerably more expensive for the same compute/storage, but justifies this with advanced compatibility and features for large, complex or legacy workloads.
+
+Azure SQL Database is less costly and more flexible for scaling out hundreds/thousands of databases, especially with elastic pools and serverless compute.
+
+Both offer licensing/commitment discounts and backup/retention as line items; storage costs are similar.
+
+</b></details>
+
+<summary>1.2 Azure SQL Database? Cost Factors? </summary><br><b>
 
 Summary Table
 Feature	Azure SQL Managed Instance	Azure SQL Database
@@ -61,15 +65,5 @@ Choose Managed Instance for full SQL Server compatibility or migration with comp
 Choose Azure SQL Database for new cloud-first apps, microservices, or simple/medium workloads where cost, simplicity, and fast scaling matter most.
 
 Hybrid and migration scenarios often start with Managed Instance for compatibility and then refactor toward Azure SQL Database for cost and modern agility.
-
-</b></details>
-
-<summary>1.2 Cost Factors</summary><br><b>
-
-Managed Instance is considerably more expensive for the same compute/storage, but justifies this with advanced compatibility and features for large, complex or legacy workloads.
-
-Azure SQL Database is less costly and more flexible for scaling out hundreds/thousands of databases, especially with elastic pools and serverless compute.
-
-Both offer licensing/commitment discounts and backup/retention as line items; storage costs are similar.
 
 </b></details>
