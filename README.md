@@ -441,7 +441,7 @@ How does a Service's label selector link it to specific Pods ranking highest in 
 </b></details>
 
 
-## Kubernetes
+## GiHub Action
 
 <a name="GitHub Action"></a>
 
