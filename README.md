@@ -439,3 +439,40 @@ Why is a stable IP address essential for Kubernetes Services
 How do Services facilitate load balancing and service discovery within a cluster
 How does a Service's label selector link it to specific Pods ranking highest in user interest
 </b></details>
+
+
+## Kubernetes
+
+<a name="GitHub Action"></a>
+
+<details>
+
+<summary>1.1 - The key components of GitHub Actions?</summary><br><b>
+
+Workflow: A workflow is a YAML-defined automated process stored in the .github/workflows/ directory of your repository. It consists of one or more jobs and can be triggered by specific events (like push, pull_request), manually, or on a schedule. Multiple workflows can exist per repository, each handling different automation tasks.
+
+Event (Trigger): An event is any activity that occurs in your repository, such as a code push, pull request, issue creation, or a scheduled timer. Events are what initiate (trigger) the workflows.
+
+Job: A job is a set of steps that run in the same environment (runner), either sequentially or in parallel with other jobs. Jobs can be dependent on each other or run independently, providing workflow flexibility.
+
+Step: Steps are individual tasks or command executions within a job. Each step might run a shell script or invoke an action. Steps within a job share the same runner and environment, allowing them to pass data between each other.
+
+Action: An action is a pre-built, reusable code package that performs a specific task within a workflow—for example, checking out your code, setting up Node.js, or sending notifications. Actions can be used from the GitHub Marketplace or custom-developed for your needs.
+
+Runner: The runner is the machine (virtual or self-hosted) that executes the jobs in your workflows. GitHub provides hosted runners on Linux, Windows, and macOS, or you can configure your own self-hosted runners for custom needs.
+
+Artifacts: Files or directories (such as build results, logs, or reports) created and uploaded at the end of a job/run, allowing you to access and use job outputs later in the pipeline.
+
+Secrets: Encrypted environment variables (like API keys, tokens, passwords) that can be used securely within workflows. These are managed via GitHub’s settings and exposed only at runtime.
+
+Together, these components enable the automation of build, test, deployment, and other software lifecycle tasks directly in your GitHub repository, with powerful flexibility and integration options.
+
+Related
+What are the core components that make up a GitHub Action workflow
+How do jobs and steps interact within a GitHub Action
+Why are reusable actions important for workflow efficiency
+How do GitHub-hosted and self-hosted runners differ in executing workflows
+What role does event triggering play in initiating a GitHub Action
+
+</b></details>
+
