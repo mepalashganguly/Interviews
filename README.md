@@ -452,8 +452,21 @@ Pods (VPA + HPA declaired full) -> Call API Instance Service (EC2) --- Conclussi
 Cluster Autoscaller always need same configuration EC2 Instance
 where as in Karpenter we can call any size of EC2 instatance into Kubernetes Cluster Pool.
 
+Karpentar provides metrics hence it;s provide certain level of visibility. 
 
+Karpentar deployed several CRDsfrom it's Helm
 
+NodeClass
+- EC2NodeClass - AWS - To Map each Node in NodePool available in the each Node Porovide.
+- AKSNodeClass - Azure 
+- ECSNodeClass - Alibaba
+NodePool - is refereing to NodeClass allwing Karpenter to doing task properly
+- It has certain level of config for kubelet how should it behave refering maximum number pods or restrict resource size etc.
+- But most important it help to create NodePool on which define its type of Nodes we are looking for depending on NodePool Node.
+NodeClaim - 
+- Karpenter will create or delete the Node depending on the demand by Pod or the Cluster.
+- Karpenter Pod (demand) -> NodeClaim -> Karpenter -> EC2 -> Karpenter -> Node (Update) 
+Karpenter will disrupt Node depending on "Epmty" / "UnderUtilize" / "Drifted"
 
 </b></details>
 
