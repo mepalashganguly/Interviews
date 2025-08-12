@@ -281,8 +281,12 @@ Hybrid approaches are increasingly popular, blending the predictability and cont
 
 <details>
 <summary>1.6 DataCenter Migration Diagram to Azure? </summary><br><b>
+Summary
+RTO tells you how long you can afford for your system to be down.
+RPO tells you how much data loss is tolerable if a failure happens.
 
 <img width="1500" height="1000" alt="image" src="https://github.com/user-attachments/assets/c711af62-f5da-413e-bf07-edaa2760fc26" />
+<img width="740" height="338" alt="Screenshot 2025-08-13 at 1 14 02 AM" src="https://github.com/user-attachments/assets/8cbd6e18-e646-4aed-9f47-640b400d6e7f" />
 
 Windows Virtual Desktop
 Azure VMWare Service
@@ -511,4 +515,15 @@ How do GitHub-hosted and self-hosted runners differ in executing workflows
 What role does event triggering play in initiating a GitHub Action
 
 </b></details>
+
+## SRE's
+
+<a name="SRE's"></a>
+
+<details>
+
+<summary>1.1 - SLA Vs SLOs Vs SLI?</summary><br><b>
+
+<img width="739" height="347" alt="Screenshot 2025-08-13 at 1 14 15 AM" src="https://github.com/user-attachments/assets/ebecd80f-fc7e-4dc8-a170-8738f412aac7" />
+
 
