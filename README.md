@@ -440,7 +440,24 @@ How do Services facilitate load balancing and service discovery within a cluster
 How does a Service's label selector link it to specific Pods ranking highest in user interest
 </b></details>
 
+<details>
+<summary>1.1 - Karpentar Vs Cluster Auto Scaller?</summary><br><b>
 
+Cluster autoscaller 
+Pods (VPA + HPA declaired full) -> Call API of auto-scaller Pool -> Node Pool -> Instance Service (EC2) --- Conclussion Time Consuming
+
+Karpentar
+Pods (VPA + HPA declaired full) -> Call API Instance Service (EC2) --- Conclussion Time saver than Cluster AutoScaller
+
+Cluster Autoscaller always need same configuration EC2 Instance
+where as in Karpenter we can call any size of EC2 instatance into Kubernetes Cluster Pool.
+
+
+
+
+</b></details>
+
+ 
 ## GiHub Action
 
 <a name="GitHub Action"></a>
