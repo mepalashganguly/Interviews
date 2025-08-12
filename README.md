@@ -441,7 +441,10 @@ Definition: A "headless" Service is a special case of a Service that does not ge
 Access: Instead of a single ClusterIP, the Kubernetes DNS service returns the IP addresses of all the Pods that the Service selects. This allows clients to connect directly to the Pods.
 
 Use Case: Useful for stateful applications or when you need direct control over which Pod to connect to, such as for a database cluster where each replica needs to be addressed individually.
+</b></details>
+
 <details>
+  
 <summary>1.1 - Karpentar Vs Cluster Auto Scaller?</summary><br><b>
 
 Cluster autoscaller 
