@@ -452,7 +452,7 @@ Pods (VPA + HPA declaired full) -> Call API Instance Service (EC2) --- Conclussi
 Cluster Autoscaller always need same configuration EC2 Instance
 where as in Karpenter we can call any size of EC2 instatance into Kubernetes Cluster Pool.
 
-Karpentar provides metrics hence it;s provide certain level of visibility. 
+Karpentar provides prometheus metrics hence it;s provide certain level of visibility. 
 
 Karpentar deployed several CRDsfrom it's Helm
 
@@ -467,6 +467,8 @@ NodeClaim -
 - Karpenter will create or delete the Node depending on the demand by Pod or the Cluster.
 - Karpenter Pod (demand) -> NodeClaim -> Karpenter -> EC2 -> Karpenter -> Node (Update) 
 Karpenter will disrupt Node depending on "Epmty" / "UnderUtilize" / "Drifted"
+
+Ref: https://www.youtube.com/watch?v=THj__UYiq90
 
 </b></details>
 
