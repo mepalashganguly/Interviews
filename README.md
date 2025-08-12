@@ -518,6 +518,28 @@ What role does event triggering play in initiating a GitHub Action
 
 <details>
 
+<summary>1.1 - Python OOPS?</summary><br><b>
+
+Object-Oriented Programming (OOP) is a core concept in Python, and interview questions often revolve around its principles and practical application. Here's a breakdown of key topics you should be prepared to discuss:
+
+1. The Four Pillars of OOP
+
+Encapsulation: The concept of bundling data (attributes) and methods that operate on that data into a single unit (a class). It involves controlling access to the internal state of an object to prevent direct modification.
+
+Inheritance: A mechanism for creating a new class (a subclass) from an existing class (a superclass). The subclass inherits the attributes and methods of the superclass, promoting code reuse.
+
+Polymorphism: The ability of an object to take on many forms. In Python, this often refers to method overriding (a subclass providing its own implementation of a method defined in its superclass) or how a single operator (like +) can behave differently with different data types (e.g., adding numbers vs. concatenating strings).
+
+Abstraction: The process of simplifying complex reality by modeling classes based on essential properties and behaviors, while hiding unnecessary details. This is often achieved using abstract classes and methods, which are meant to be subclassed and implemented.
+
+</b></details>
+
+## SRE's
+
+<a name="SRE's"></a>
+
+<details>
+
 <summary>1.1 - SLA Vs SLOs Vs SLI?</summary><br><b>
 1. SLA – Service Level Agreement
 What it is: A formal, legally binding contract between a service provider and a customer that specifies measurable service commitments (e.g., 99.9% uptime, 1-hour ticket response, etc.) and the consequences if they’re not met (like service credits or penalties).
