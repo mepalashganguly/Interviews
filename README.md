@@ -512,13 +512,13 @@ What role does event triggering play in initiating a GitHub Action
 
 </b></details>
 
-## SRE's
+## Python OOP's
 
-<a name="SRE's"></a>
+<a name="Python OOP's"></a>
 
 <details>
 
-<summary>1.1 - Python OOPS?</summary><br><b>
+<summary>1.1 - Python OOPS 4 Pilleres?</summary><br><b>
 
 Object-Oriented Programming (OOP) is a core concept in Python, and interview questions often revolve around its principles and practical application. Here's a breakdown of key topics you should be prepared to discuss:
 
