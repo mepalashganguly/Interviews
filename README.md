@@ -357,8 +357,12 @@ How can I migrate existing RDS deployments to Azure Virtual Desktop efficiently
 
 </b></details>
 
+<details>
+<summary>1.7 RTO Vs RPO? </summary><br><b>
+  
+<img width="1001" height="471" alt="image" src="https://github.com/user-attachments/assets/7f651290-1908-4b8d-804e-b12b855ec80a" />
 
-
+</b></details>
 
 ## Kubernetes
 
