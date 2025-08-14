@@ -17,6 +17,8 @@ OREO ->
 3. Experience
 4. Opionion
 
+Reference: Francally Speaking (Youtube Channel)
+
 </b></details>
 
 <a name="How to articulate without blanking out?"></a>
