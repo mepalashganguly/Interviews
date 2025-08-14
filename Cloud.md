@@ -3,7 +3,7 @@
 <a name="AWS Vs Azure as a CSP?"></a>
 
 <details>
-<summary>1.1 - what is Azure SQL Managed Instance?</summary><br><b>
+<summary>1.1 - AWS Vs Azure as a CSP??</summary><br><b>
 
 When comparing AWS and Azure specifically from the perspective of their Cloud Solution Provider (CSP) programs in 2025, both offer distinct advantages depending on your business context, existing ecosystem, and cloud strategy. Here’s a focused comparison to help you understand which CSP program might be more favorable for your needs:
 
