@@ -276,7 +276,13 @@ Hybrid approaches are increasingly popular, blending the predictability and cont
 3. Re-archietect - ( Changing DB, Code change, changing my application, shift to vm based app to container / Servreless etc )
 4. Rebuild - ( To many changes then - Build from Scratch )
 5. Replace
-5R's Based on Effor level ( Low/Midium/high )
+- based on some key points:
+- What I am going to to do? is my App is strategic going to last for more than 2yrs or a decent period?
+- Current Profit
+- Current Usage
+- Other important factors
+- If negetive in termas of above point then will consider it as non-strategic and will go for Replace the App.
+5R's Based on Effor level  ( Effort is Low/Midium/high direction )
    
 </b></details>
 
