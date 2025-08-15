@@ -247,21 +247,30 @@ Hybrid approaches are increasingly popular, blending the predictability and cont
 4. My Project Budget
 5. Company Strategy ( IAAS/PAAS/SAAS )
 6. Effort ( Low/Midium/high )
-7. Spinkling --- Trim unused data first
-8. Discover -  
-   7.1 What App? --- ( Understand the type of App )  
-   7.2 Performance? --- ( Right Sizing )  
-   7.3 Dependencies? --- ( Grouping all the related service including monitoring )  
-   7.4 App Value? --- ( Target Service )  
+7. Spring Clean --- Trim unused data first
+8. Discover & Asses-  
+   7.1 What App? --- ( Understand the type of App ) nature of buisness. 
+   7.2 Performance? --- ( Right Sizing ) (VCPU, Memory, Traffic, Storagte, Quality) 
+   7.3 Dependencies? --- ( Grouping all the related service including Supporting App/DB/monitoring etc )  
+   7.4 App Value? --- ( Target Service ) - App Value to the buisness - [Return on Investment])  
 9. Asses:  
    8.1 Understand the type of App  
    8.2 Right Sizing  
    8.3 Grouping  
    8.4 Target Service  
 10. Migrate  
-   9.1 Plan ( Test Migration / Fail Back / Online/OffLine / Downtime / Notification / Intimation / Collaboration / Chnage Plan / CR's )  
+   9.1 Plan ( Test Migration / Fail over/ Switch over/ Fail Back / Online/OffLine / Downtime / Notification / Intimation / Collaboration / Chnage Plan / CR's )  
    9.2 Migrate  
-11. Optimize   
+11. Optimize
+
+Azure Migration is free tooling.
+From On-Premishes
+1. VMware: Agentless
+2. Hyper-V: Agentless
+3. Baremetal: Suppots Agent Based 
+
+From anther CSP to Azure
+can be agentless or agent based
 
 </b></details>
 
