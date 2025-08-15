@@ -9,7 +9,7 @@ PADS ->
 1. Points  
 2. Advantages  
 3. Disadvantages  
-4. Summery  
+4. Summary  
 
 OREO ->  
 1. Opinion  
