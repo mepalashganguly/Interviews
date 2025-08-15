@@ -36,3 +36,13 @@ PRoblem -> on which problem
 Solution -> what we are expecting to solve
 
 </b></details>
+
+<details>
+<summary> Where you want to se yourself next 5 Years? </summary><br><b>
+
+AEA Frame Work
+A: Answer
+E: Example
+A: Answer
+
+</b></details>
