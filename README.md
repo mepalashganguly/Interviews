@@ -272,7 +272,7 @@ Hybrid approaches are increasingly popular, blending the predictability and cont
 
 5R's
 1. Rehost - No Code Change ( life time of an App, if it's not stratigic App then rehost )
-2. Refactor ( PAAS ) - No Code Changing
+2. Refactor ( PAAS ) - No Code Changing - may be we want to avail some fetures of cloud, may be db instead of postgress Azuure Mysql data
 3. Re-archietect - ( Changing DB, Code change, changing my application, shift to vm based app to container / Servreless etc )
 4. Rebuild - ( To many changes then - Build from Scratch )
 5. Replace
