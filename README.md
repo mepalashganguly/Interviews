@@ -306,6 +306,13 @@ Ref: https://www.youtube.com/watch?v=THj__UYiq90
 <details>
 <summary>K8s Operator?</summary><br><b>
 
+
+</b></details
+
+<details>
+<summary>K8s Logs for troubleshhoting?</summary><br><b>
+
+
 </b></details
  
 ## GiHub Action
