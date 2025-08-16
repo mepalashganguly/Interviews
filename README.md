@@ -299,20 +299,21 @@ Ref: https://www.youtube.com/watch?v=THj__UYiq90
 </b></details>
 
 <details>
+  
 <summary>callico Vs Fannel?</summary><br><b>
-
+Coming
 </b></details
 
 <details>
 <summary>K8s Operator?</summary><br><b>
 
-
+Coming
 </b></details
 
 <details>
 <summary>K8s Logs for troubleshhoting?</summary><br><b>
 
-
+Coming
 </b></details
  
 ## GiHub Action
