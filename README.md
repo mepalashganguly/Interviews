@@ -300,8 +300,9 @@ Ref: https://www.youtube.com/watch?v=THj__UYiq90
 
 <details>
   
-<summary>callico Vs Fannel?</summary><br><b>
-Coming
+<summary>Flanel Vs Callico Vs Cillium?</summary><br><b>
+<img width="1210" height="1124" alt="image" src="https://github.com/user-attachments/assets/c338dd2a-e1bf-4822-9582-a50caabe2310" />
+
 </b></details>
 
 <details>
@@ -321,7 +322,7 @@ Coming
 Cluster troubleshoot:
 	1. kubectl get cm kubelet-config -n kube-system -o yaml | grep -i cidr  
 	2. vi /etc/kubernetes/manifests/kube-controller-manager.yaml get cidr  
-  3. kubectl get pods if any error regarding kubeapi server check /etc/kubernetes/manifests/kube-apiserver.yaml Any mismatch change "~/.kube/config" file and check  
+    3. kubectl get pods if any error regarding kubeapi server check /etc/kubernetes/manifests/kube-apiserver.yaml Any mismatch change "~/.kube/config" file and check  
 	6. Check kubelet service with systemctl status kubelet  
 	7. Etcd erro validate etcd manifest under /etc/kubernetes/manifests. Mismatch? Change /etc/kubernetes/manifests/kube-apiserver.yaml  
 	8. Get all the listed enable service "systemctl list-unit-files" | grep -i kube  
