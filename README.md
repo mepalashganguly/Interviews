@@ -267,7 +267,7 @@ Use Case: Useful for stateful applications or when you need direct control over 
 
 <details>
   
-<summary>1.1 - Karpentar Vs Cluster Auto Scaller?</summary><br><b>
+<summary>Karpentar Vs Cluster Auto Scaller?</summary><br><b>
 
 Cluster autoscaller 
 Pods (VPA + HPA declaired full) -> Call API of auto-scaller Pool -> Node Pool -> Instance Service (EC2) --- Conclussion Time Consuming
@@ -298,6 +298,15 @@ Ref: https://www.youtube.com/watch?v=THj__UYiq90
 
 </b></details>
 
+<details>
+<summary>callico Vs Fannel?</summary><br><b>
+
+</b></details
+
+<details>
+<summary>K8s Operator?</summary><br><b>
+
+</b></details
  
 ## GiHub Action
 
