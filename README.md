@@ -302,7 +302,7 @@ Ref: https://www.youtube.com/watch?v=THj__UYiq90
   
 <summary>callico Vs Fannel?</summary><br><b>
 Coming
-</b></details
+</b></details>
 
 <details>
 <summary>K8s Operator?</summary><br><b>
