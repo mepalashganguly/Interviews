@@ -308,14 +308,15 @@ Coming
 <summary>K8s Operator?</summary><br><b>
 
 Coming
-</b></details
+</b></details>
 
 <details>
 <summary>K8s Logs for troubleshhoting?</summary><br><b>  
-	1. All manifest files: /etc/kubernetes/manifests  
-	2. cd /var/log/containers/ all logs  
-	3. crictl ps -a  
-	4. crictl logs <container_id>  
+	
+1. All manifest files: /etc/kubernetes/manifests    
+2. cd /var/log/containers/ all logs
+3. crictl ps -a  
+4. crictl logs <container_id>  	
 
 Cluster troubleshoot:
 	1. kubectl get cm kubelet-config -n kube-system -o yaml | grep -i cidr  
@@ -325,9 +326,6 @@ Cluster troubleshoot:
 	7. Etcd erro validate etcd manifest under /etc/kubernetes/manifests. Mismatch? Change /etc/kubernetes/manifests/kube-apiserver.yaml  
 	8. Get all the listed enable service "systemctl list-unit-files" | grep -i kube  
 
-
-
-Coming
 </b></details>
  
 ## GiHub Action
