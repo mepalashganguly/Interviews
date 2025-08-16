@@ -311,10 +311,24 @@ Coming
 </b></details
 
 <details>
-<summary>K8s Logs for troubleshhoting?</summary><br><b>
+<summary>K8s Logs for troubleshhoting?</summary><br><b>  
+	1. All manifest files: /etc/kubernetes/manifests  
+	2. cd /var/log/containers/ all logs  
+	3. crictl ps -a  
+	4. crictl logs <container_id>  
+
+Cluster troubleshoot:
+	1. kubectl get cm kubelet-config -n kube-system -o yaml | grep -i cidr  
+	2. vi /etc/kubernetes/manifests/kube-controller-manager.yaml get cidr  
+  3. kubectl get pods if any error regarding kubeapi server check /etc/kubernetes/manifests/kube-apiserver.yaml Any mismatch change "~/.kube/config" file and check  
+	6. Check kubelet service with systemctl status kubelet  
+	7. Etcd erro validate etcd manifest under /etc/kubernetes/manifests. Mismatch? Change /etc/kubernetes/manifests/kube-apiserver.yaml  
+	8. Get all the listed enable service "systemctl list-unit-files" | grep -i kube  
+
+
 
 Coming
-</b></details
+</b></details>
  
 ## GiHub Action
 
