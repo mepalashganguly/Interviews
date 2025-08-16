@@ -1,6 +1,7 @@
 Pending Qns:
 - How python treading works, example?
 - how k8s cluster autosclalling works?
+- k8s network describe, how pod connected with other pod?
 - how you will manage pipeline secret management?
 - how datacenter to cloud migration you will do?
 - what are the diffrent deployement methods? when which to use? example cenery deployement
